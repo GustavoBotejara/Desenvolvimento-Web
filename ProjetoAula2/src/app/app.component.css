@@ -1,0 +1,55 @@
+* {
+    color: rgb(233, 224, 183);
+    background-color: rgb(49, 47, 47);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: goldenrod !important;
+}
+
+.topbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+.page-title {
+    color: goldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(44, 42, 42);
+}
+
+.topic-title {
+    color: goldenrod;
+    font-style: italic;
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content {
+    width: 60%;
+}
+
+.footer {
+    margin: 0px !important;
+}
+
+.main {
+    padding-top: 3vh; 
+    height: 100vh;
+}
+
+.card-colorido {
+    border-color: rgb(233, 224, 183);
+    border-width: 2px;
+    color: rgb(233, 224, 183) !important;
+}
